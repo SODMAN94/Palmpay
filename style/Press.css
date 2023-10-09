@@ -1,0 +1,607 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+header{
+    width: 100%;
+    /* border: 2px solid red; */
+    position: fixed;
+    top: 0;
+    background: #fff;
+    
+
+}
+
+nav{
+    width: 80%;
+    /* border: 2px solid green; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    
+}
+
+.flag{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 4em; */
+
+}
+
+.flag ul{
+    display: flex;
+    align-items: center;
+    gap: 3em;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    list-style-type: none;
+    padding-right: 4em;
+}
+
+.flag ul li a{
+    color: #4a4a4a;
+    text-decoration: none;
+    
+}
+
+.flag ul li a:hover{
+    color: #0055d7;
+}
+
+.menu{
+    position: absolute;
+    padding-top: 0.8em;  
+}
+
+.menu ul{
+    display: none;
+    background: #fff;
+    /* border: 1px solid green; */
+    width: 14em;
+    height: 5em;
+    padding: 1.5em;
+    border-radius: 10px;
+    box-shadow: 0px 0.2px 10px #4a4a4a;
+    font-size: 14px;
+  
+}
+
+.flag ul li:hover .menu ul{
+    display: block;
+
+}
+
+.menu ul li a:hover{
+    color: black;
+    /* background: #4a4a4a; */
+    padding: 0.4em;
+    /* width: 100%; */
+}
+
+.menu1{
+    position: absolute;
+    padding-top: 0.8em;
+}
+
+
+.menu1 ul{
+    display: none;
+    background: #fff;
+    /* border: 1px solid green; */
+    width: 14em;
+    height: 12em;
+    padding: 1.5em;
+    border-radius: 10px;
+    box-shadow: 0px 0.2px 10px #4a4a4a;
+    font-size: 14px;
+    line-height: 3em;
+}
+
+.flag ul li:hover .menu1 ul{
+    display: block;
+
+}
+.menu1 ul li a:hover{
+    color: black;
+    /* background: #4a4a4a; */
+    padding: 0.4em;
+    /* width: 100%; */
+}
+
+.flag img{
+  width: 1.5em;
+}
+
+.btn{
+    background-color: #fff;
+    height: 40px;
+    width: 40px;
+    border: none;
+    display: inline;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+
+
+    /* ===========================================
+                    SECTION ONE
+    =========================================== */
+
+
+#con1{
+    width: 80%;
+    margin: auto;
+    margin-top: 10em;
+}
+#con1 h1{
+    font-family: Poppins, sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    color: #595757;
+    margin-bottom: 0.8em;
+    text-align: center;
+
+}
+
+    /* ===========================================
+                    SECTION TWO
+    =========================================== */
+
+#con2{
+    width: 80%;
+    margin: auto;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+#con2 h1{
+    font-family: Poppins, sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #595757;
+    margin-bottom: 0.8em;
+
+}
+
+#sec2a{
+    width: 30em;
+    /* height: 75vh; */
+    /* border: 2px solid red; */
+    background-color: #fff;
+    border-radius: 2em;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6.80926px 27.237px 0px;
+    padding: 2.5em;
+
+}
+
+#sec2a img{
+    width: 100%;
+    border-radius: 1.5em;
+    margin-bottom: 1em;
+ 
+}
+
+#sec2a p{
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #b5b5c2;
+    /* margin-bottom: 2em;  */
+}
+
+#sec2a h6{
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #202046;
+    margin-top: 1em;
+}
+
+#sec2a h5{
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #6306b2;
+    margin-top: 1em;
+}
+
+
+#sec2b{
+    width: 30em;
+    /* height: 75vh; */
+    /* border: 2px solid red; */
+    background-color: #fff;
+    border-radius: 2em;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6.80926px 27.237px 0px;
+    padding: 2.5em;
+    margin-left: 3em;
+}
+
+#sec2b img{
+    width: 100%;
+    border-radius: 1.5em;
+    margin-bottom: 1em;
+ 
+}
+
+#sec2b p{
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #b5b5c2;
+    /* margin-bottom: 2em;  */
+}
+
+#sec2b h6{
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #202046;
+    margin-top: 1em;
+}
+
+#sec2b h5{
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #6306b2;
+    margin-top: 2em;
+}
+
+    /* ===========================================
+                    SECTION THREE
+    =========================================== */
+
+#con3{
+    width: 80%;
+    margin: auto;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+#con3 h1{
+    font-family: Poppins, sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #202046;
+    margin-bottom: 0.8em;
+
+}
+
+#sec3a{
+    width: 20em;
+    /* height: 70vh; */
+    /* border: 2px solid red; */
+    background-color: #fff;
+    border-radius: 2em;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6.80926px 27.237px 0px;
+    padding: 2.2em;
+
+}
+#sec3a img{
+    width: 250px;
+    border-radius: 1em;
+    margin-bottom: 1.8em;
+}
+
+#sec3a #text{
+    display: flex;
+    gap: 2.2em;
+}
+
+#sec3a p{
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #b5b5c2;
+    /* margin-bottom: 2em;  */
+}
+
+#sec3a h5{
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px; 
+}
+
+#sec3a h6{
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #6306b2;
+    margin-top: 1em;
+}
+
+
+#sec3b{
+    width: 20em;
+    /* height: 70vh; */
+    /* border: 2px solid red; */
+    background-color: #fff;
+    border-radius: 2em;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6.80926px 27.237px 0px;
+    padding: 2.2em;
+    margin-left: 1.1em;
+
+}
+#sec3b img{
+    width: 250px;
+    border-radius: 1em;
+    margin-bottom: 1.8em;
+}
+
+#sec3b #text{
+    display: flex;
+    gap: 2.2em;
+}
+
+#sec3b p{
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #b5b5c2;
+    /* margin-bottom: 2em;  */
+}
+
+#sec3b h5{
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px; 
+}
+
+#sec3b h6{
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #6306b2;
+    margin-top: 1em;
+}
+
+
+#sec3c{
+    width: 20em;
+    /* height: 70vh; */
+    /* border: 2px solid red; */
+    background-color: #fff;
+    border-radius: 2em;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6.80926px 27.237px 0px;
+    padding: 2.2em;
+    margin-left: 1.5em;
+
+}
+#sec3c img{
+    width: 250px;
+    border-radius: 1em;
+    margin-bottom: 1.8em;
+}
+
+#sec3c #text{
+    display: flex;
+    gap: 2.2em;
+}
+
+#sec3c p{
+    font-family: Poppins, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #b5b5c2;
+    /* margin-bottom: 2em;  */
+}
+
+#sec3c h5{
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px; 
+}
+
+#sec3c h6{
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #6306b2;
+    margin-top: 1em;
+}
+
+
+    /* ===========================================
+                SECTION FOUR
+    =========================================== */
+
+#con4{
+   background-image: url(/IMAGE/bg.5c77370d.png);
+   background-size: cover;
+   background-color: rgba(246, 237, 255);
+   background-position: 0;
+   /* border: 2px solid red;  */
+   /* width: 100%; */
+   /* height: 95vh; */
+   margin-bottom: 5em;
+}
+
+#media{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+#media img{
+    margin-left: 10em;
+    padding-top: 1em;
+}
+
+#text h4{
+    font-family: Poppins, sans-serif;
+    font-size: 21px;
+    font-weight: 800;
+    color: #202046;
+    margin-bottom: 2em;  
+}
+
+#text p{
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #202046;
+    margin-bottom: 2em;  
+}
+
+#left{
+    display: flex;
+    align-items: center;
+    gap: 3em;
+}
+#left button{
+    padding: 1em;
+    width: 12em;
+    background-color: #202046;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Poppins, sans-serif;
+    border-radius: 0.5em;
+    border: none;
+}
+#left h5{
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #202046;
+}
+
+
+    /* ===========================================
+                SECTION FIVE
+    =========================================== */
+
+
+
+#con5{
+    width: 80%;
+    margin: auto;
+}
+
+#sec5a h1{
+    font-family: Poppins, sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    color: #595757;
+    margin-bottom: 0.8em;
+}
+
+
+#sec5a p{
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 38px;
+    color: #595757;
+    
+}
+
+#pic1 img{
+    width: 14em;
+    margin-bottom: 2em;
+}
+
+#pic2 img{
+    width: 14em;
+    
+}
+
+#message{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    padding-top: 3em;
+}
+
+#message h5{
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #595757;  
+}
+
+#message img{
+    width: 70%;
+}
+
+#sec5b img{
+    padding-top: 1em;
+    margin-left: 3em;
+}
+
+    /* ====================================
+            SECTION SIX
+    ==================================== */
+
+
+
+.section6{
+    background-color: #e6e6e6;
+    /* height: 120vh; */
+}
+#filter{
+    width: 80%;
+    margin: auto;
+    padding-top: 6em;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+#filter h1{
+    font-family: Poppins, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 38px;
+    color: #000000;
+    margin-bottom: 1em; 
+}
+
+#filter h5{
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 50px;
+    color: #595757; 
+}
+
+#social{
+    width: 80%;
+    margin: auto;
+}
+
+#social img{
+    width: 5%;
+    margin-bottom: 5em;
+
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,446 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.flag {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    list-style-type: none;
+    margin-left: 8em;
+    padding-top: 1.5em;
+}
+
+
+.flag li a{
+    text-decoration: none;
+    color: #4a4a4a;
+}
+
+
+.flag li a:hover{
+    color: #0055d7;
+}
+
+#menu{
+    position: absolute;
+    padding-top: 0.8em;  
+}
+
+#menu ul{
+    display: none;
+    background: #fff;
+    /* border: 1px solid green; */
+    width: 14em;
+    height: 5em;
+    padding: 1.5em;
+    border-radius: 10px;
+    box-shadow: 0px 0.2px 10px #4a4a4a;
+    font-size: 14px;
+    list-style-type: none;
+}
+
+#menu ul li a{
+    text-decoration: none;
+}
+
+.flag li:hover #menu ul{
+    display: block;
+}
+
+#menu1{
+    position: absolute;
+    padding-top: 0.8em;
+}
+
+
+#menu1 ul{
+    display: none;
+    background: #fff;
+    /* border: 1px solid green; */
+    width: 14em;
+    height: 12em;
+    padding: 1.5em;
+    border-radius: 10px;
+    box-shadow: 0px 0.2px 10px #4a4a4a;
+    font-size: 14px;
+    line-height: 3em;
+    list-style-type: none;
+}
+
+#menu1 ul li a{
+    text-decoration: none;
+}
+
+.flag li:hover #menu1 ul{
+    display: block;
+
+}
+#menu1 ul li a:hover{
+    color: black;
+    /* background: #4a4a4a; */
+    padding: 0.4em;
+    /* width: 100%; */
+}
+
+
+
+#digital {
+    font-family: Poppins, sans-serif;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 57px;
+    color: #202046;
+    padding-top: 3em;
+    
+}
+#digital2 {
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #202046;
+    padding-top: 1em;
+    margin-bottom: 2em;
+    
+}
+
+/* ===========================
+            SECTION TWO
+    ============================  */
+
+#fast1{
+    font-family: Poppins, sans-serif;
+    font-size:42px;
+    font-weight: 600;
+    line-height: 53px;
+    color: #202046;
+    margin-bottom: 0.6em;
+}
+
+#fast2{
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+    color: #202046;
+    margin-bottom: 0.6em;
+}
+
+    
+
+#fast3{
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px; 
+}
+
+#fast3 a{
+    text-decoration: none;
+    color: #6306b2;
+}
+   
+/* 
+===========================
+            SECTION THREE
+    ============================  */
+ #bill1{
+    font-family: Poppins, sans-serif;
+    font-size:42px;
+    font-weight: 600;
+    line-height: 53px;
+    color: #202046;
+    margin-bottom: 0.6em;
+    border: 2px solid green;
+}
+    
+#bill2{
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+    color: #202046;
+    margin-bottom: 1.5em;
+}
+
+#btn{
+    width: 35%;
+    padding: 0.6em;
+    background: #6306b2;
+    color: white;
+}
+
+@media (max-width:768px) {
+    #das{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* =================================
+            SECTION FOUR
+================================= */
+
+.section4{
+    width: 100%;
+    background-color: #6306b2;
+    margin-top: 10px;
+    /* height: 120vh; */
+}
+
+.text{
+    width: 80%;
+    margin: auto;
+    font-family: Poppins, sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 53px;
+    color: #ffff; 
+    padding-top: 1em;
+    padding-left: 4.2em;  
+}
+
+.box{
+    border: 2px solid #6306b2;
+    width: 55%;
+    margin: auto;
+    /* height: 10vh; */
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    box-shadow: 3px 3px 10px #202046;
+    padding: 0.3em;
+    margin-top: 1.5em;
+    
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+   
+}
+
+.item h2 span {
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34px;
+    color: #fff;
+}
+
+.item h2{
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+    
+}
+
+.item1{
+    border: 1px solid #fff;
+    height: 8vh;  
+}
+
+.item2{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.item2 h2 span {
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34px;
+    color: #fff;
+    
+}
+
+.item2 h2{
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+}
+
+.feedback{
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.con{
+    height: 55vh;
+    width:32%;
+    /* border: 2px solid red; */
+    border-radius: 10%;
+    background: #fff;
+    position: relative;
+    padding: 2em;
+}
+
+.comment{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    position: absolute;
+
+}
+
+.con p{
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #202046;
+    position: absolute;
+    top: 5em;
+}
+
+.icons{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+/* =====================================
+        SECTION FIVE
+===================================== */
+
+.section5{
+    width: 80%;
+    margin: auto;
+    /* height: 100vh; */
+}
+
+.section5 h1{
+    font-family: Poppins, sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    /* line-height: 53px; */
+    color: #202046;
+    /* padding-top: 3em;
+    padding-left: 9em; */
+    margin-bottom: 2em;
+    text-align: center;
+   
+}
+
+.partners{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2em;
+    margin-bottom: 5em;
+
+}
+
+/* 
+    ===================================
+            SECTION SIX
+    ================================== */
+
+
+#install1{
+    font-family: Poppins, sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 54px;
+    color: #595757; 
+}
+
+
+#install2{
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38px;
+    color: #595757; 
+}
+
+#message{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    padding-top: 3em;
+}
+
+#message h5{
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #595757;  
+}
+
+#message img{
+    width: 70%;
+}
+
+    /* ================================
+              SECTION SEVEN
+    ================================ */
+
+.section7{
+    background-color: #e6e6e6;
+    /* height: 120vh; */
+}
+#filter{
+    width: 80%;
+    margin: auto;
+    padding-top: 6em;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+#filter h1{
+    font-family: Poppins, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 38px;
+    color: #000000;
+    margin-bottom: 1em; 
+}
+
+#filter h5{
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 50px;
+    color: #595757; 
+}
+
+#social{
+    width: 80%;
+    margin: auto;
+}
+
+#social img{
+    width: 5%;
+    margin-bottom: 5em;
+
+}
+
+
+
+
+
+
+
